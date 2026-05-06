@@ -136,3 +136,37 @@ nav a {
         transform: translateY(0);
     }
 }
+
+.btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.btn:hover {
+    background: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+.social a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #0077b5;
+    transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.social a:hover {
+    transform: scale(1.2);
+    color: #005582;
+}
+.social a:hover {
+    transform: scale(1.2);
+    color: #005582;
+    text-shadow: 0 0 10px rgba(0,119,181,0.6);
+}
