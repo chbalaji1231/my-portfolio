@@ -170,3 +170,6 @@ nav a {
     color: #005582;
     text-shadow: 0 0 10px rgba(0,119,181,0.6);
 }
+.buttons .btn {
+    margin: 5px;
+}
