@@ -231,3 +231,35 @@
 html {
     scroll-behavior: smooth;
 }
+
+.hero-buttons {
+    margin-top: 15px;
+}
+
+.btn.outline {
+    background: transparent;
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+    margin-left: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.stats h3 {
+    color: #38bdf8;
+}
+
+.scroll-down {
+    margin-top: 20px;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0%,100% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+}
