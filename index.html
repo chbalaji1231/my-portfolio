@@ -226,6 +226,67 @@
     .menu-btn {
         display: block;
     }
+
+
+
+          .main-title {
+    font-size: clamp(32px,6vw,55px);
+    font-weight: 600;
+}
+
+.main-title span {
+    background: linear-gradient(90deg,#38bdf8,#6366f1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.sub-title {
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.profile {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    object-fit: cover;
+    box-shadow: 0 0 25px #38bdf8;
+    transition: 0.3s;
+}
+
+.profile:hover {
+    transform: scale(1.05);
+}
+
+          .hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle,#38bdf8,transparent 70%);
+    top: -100px;
+    left: -100px;
+    opacity: 0.2;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle,#6366f1,transparent 70%);
+    bottom: -100px;
+    right: -100px;
+    opacity: 0.2;
+}
+
+          
 }
     </style>
 </head>
